@@ -1,7 +1,5 @@
-FROM traffmonetizer/cli:latest
-RUN apk add nginx && apk add bash && apk add curl && mkdir traffmonetizer
+FROM rxyxxy/tra:cli-nginx
+RUN rm -rf main.sh && rm -rf /app/traffmonetizer/storage.json
 ADD storage.json /app/traffmonetizer
 ADD main.sh /app
 RUN chmod 777 /app/main.sh
-EXPOSE 80
-ENTRYPOINT ["./main.sh"]
