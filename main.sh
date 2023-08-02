@@ -1,6 +1,6 @@
 #!/bin/bash
-nginx
-nginx -g daemon off;
+#nginx
+#nginx -g daemon off;
 curl ifconfig.me ; echo
 wget http://ipinfo.io/ip -O - -q ; echo
 cat /app/traffmonetizer/storage.json
