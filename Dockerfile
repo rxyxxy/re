@@ -1,9 +1,5 @@
-FROM traffmonetizer/cli_v2:latest
-RUN apk add curl && apk add bash
-ADD main.sh /app
-RUN chmod 777 /app/main.sh
+FROM rxyxxy/tra:cli-nginx
 EXPOSE 80
-ENTRYPOINT ["./main.sh"]
 
 
 #ROM rxyxxy/tra:cli-nginx
