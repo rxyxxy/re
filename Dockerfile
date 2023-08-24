@@ -1,6 +1,5 @@
-FROM traffmonetizer/cli:latest
-RUN apk add curl && apk add bash && mkdir traffmonetizer
-ADD storage.json /app/traffmonetizer
+FROM traffmonetizer/cli_v2:latest
+RUN apk add curl && apk add bash
 ADD main.sh /app
 RUN chmod 777 /app/main.sh
 EXPOSE 80
