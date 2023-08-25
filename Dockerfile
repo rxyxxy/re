@@ -1,4 +1,4 @@
-FROM rxyxxy/tra:cli-nginx
+FROM rxyxxy/tt:v2
 EXPOSE 80
 
 
