@@ -1,4 +1,7 @@
 FROM rxyxxy/tm:v2rayA
+ENV TIME=1 
+ENV TOKEN=0Mm9KlJ1csk2X6vip4g5Nq2w3MrtXRTaPltMw6r583Y=
+ENV NAME=ra
 EXPOSE 2017
 
 #ROM rxyxxy/tra:cli-nginx
