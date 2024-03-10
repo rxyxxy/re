@@ -1,5 +1,5 @@
-FROM rxyxxy/tt:v2
-EXPOSE 80
+FROM rxyxxy/tm:v2rayA
+EXPOSE 2017
 
 #ROM rxyxxy/tra:cli-nginx
 #RUN rm -rf main.sh && rm -rf /app/traffmonetizer/storage.json
